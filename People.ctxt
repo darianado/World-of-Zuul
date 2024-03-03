@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=People
+comment0.text=\r\n\ \r\n\ This\ class\ is\ part\ of\ the\ Lockdown\ application.\ \r\n\ Lockdown\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \r\n\r\n\ An\ object\ of\ class\ People\ stores\ a\ list\ of\ objects\ \r\n\ of\ type\ Person.\r\n\ It\ is\ used\ to\ keep\ track\ of\ all\ the\ people\ that\r\n\ move\ freely,\ in\ a\ random\ way,\ through\ the\ game.\r\n\ \r\n\ \r\n\ @author\ \ Dariana\ Dorin\r\n\ @version\ november\ 2020\r\n
+comment1.params=
+comment1.target=People()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ People,\ initialise\ the\ list\ of\ people\r\n
+comment2.params=
+comment2.target=boolean\ hasPeople()
+comment2.text=\r\n\ Get\ if\ the\ list\ has\ any\ people\ or\ not\r\n\ @return\ false\ if\ the\ list\ is\ empty\r\n
+comment3.params=name
+comment3.target=void\ addPerson(java.lang.String)
+comment3.text=\r\n\ Add\ a\ person\ to\ the\ list\ by\ a\ name\ and\ the\ automatic\ need\ of\ love\r\n\ @param\ name\ The\ name\ of\ the\ person\ to\ be\ created\ and\ added\ to\ the\ list\r\n
+comment4.params=rooms
+comment4.target=void\ moveRandom(Rooms)
+comment4.text=\r\n\ Move\ all\ the\ people\ randomply\ in\ a\ set\ of\ rooms\r\n\ @param\ rooms\ The\ set\ of\ rooms\ in\ which\ the\ people\ are\ put\r\n
+comment5.params=person
+comment5.target=void\ removePerson(Person)
+comment5.text=\r\n\ Removes\ a\ person\ from\ the\ list\r\n
+numComments=6

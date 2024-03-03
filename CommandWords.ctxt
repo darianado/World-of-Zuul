@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=CommandWords
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "Lockdown"\ application.\ \r\n\ "Lockdown"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\r\n\ \r\n\ This\ class\ holds\ an\ enumeration\ of\ all\ command\ words\ known\ to\ the\ game.\r\n\ It\ is\ used\ to\ recognise\ commands\ as\ they\ are\ typed\ in.\r\n\r\n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\ and\ Dariana\ Dorin\r\n\ @version\ november2020\r\n
+comment1.params=
+comment1.target=CommandWords()
+comment1.text=\r\n\r\n\ Constructor\ -\ initialise\ the\ command\ words.\r\n
+comment2.params=commandWord\ command
+comment2.target=void\ put(CommandWord,\ Command)
+comment3.params=commandWord
+comment3.target=Command\ getCommand(CommandWord)
+comment4.params=commandWord
+comment4.target=CommandWord\ getCommandWord(java.lang.String)
+comment4.text=\r\n\ Find\ the\ CommandWord\ associated\ with\ a\ command\ word.\r\n\ @param\ commandWord\ The\ word\ to\ look\ up\ (as\ a\ string).\r\n\ @return\ The\ CommandWord\ correspondng\ to\ commandWord,\ or\ UNKNOWN\ if\ it\ is\ not\ a\ valid\ command\ word.\r\n
+numComments=5

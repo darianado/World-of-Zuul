@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CommandGo
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ Lockdown\ application.\ \r\n\ Lockdown\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \r\n\r\n\ This\ class\ is\ responsible\ of\ executing\ a\ command\ of\ type\ go\r\n\ in\ the\ game.\ It\ processes\ a\ player,\ a\ mission\ and\ a\ set\ of\ rooms.\r\n\ \r\n\ @author\ \ Dariana\ Dorin\r\n\ @version\ november2020\r\n
+comment1.params=player\ mission\ roomSet\ people
+comment1.target=CommandGo(Player,\ Mission,\ Rooms,\ People)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CommandGo\r\n\ Initialise\ the\ player\ on\ which\ the\ command\ is\ executed,\ a\ mission,\ a\ set\ of\ rooms\ and\ some\ people\r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\ \r\n\ Try\ to\ go\ to\ one\ direction.\ If\ there\ is\ an\ exit\ and\ the\ \r\n\ control\ rooms\ are\ solved,\ go\ to\ the\ new\r\n\ room,\ also\ ugrading\ the\ mission,\r\n\ otherwise\ print\ some\ error\ message.\r\n
+comment3.params=nextRoom
+comment3.target=void\ wantToGo(Room)
+comment3.text=\r\n\ *\ Prints\ the\ detalis\ of\ the\ new\ room.\r\n\ If\ it\ is\ the\ case\ prepears\ a\ control\ room.\r\n\ Close\ all\ items\ in\ the\ cuurent\ room.\r\n\ Moves\ the\ people\ randomly\r\n\ @param\ nextRoom\ The\ room\ to\ go\ next\r\n
+comment4.params=room
+comment4.target=void\ putRandomPeopleControl(Room)
+comment4.text=\r\n\ Put\ some\ control\ people\ in\ a\ room,\ each\ with\ a\ 50%\ chance\ to\ be\ there\r\n\ @param\ room\ The\ room\ to\ have\ the\ control\ people\r\n
+numComments=5

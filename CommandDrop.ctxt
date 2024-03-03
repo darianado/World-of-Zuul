@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CommandDrop
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ Lockdown\ application.\ \r\n\ Lockdown\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \r\n\r\n\ This\ class\ is\ responsible\ of\ executing\ a\ command\ of\ type\ drop\r\n\ in\ the\ game.\ It\ processes\ a\ player.\r\n\ \r\n\ @author\ \ Dariana\ Dorin\r\n\ @version\ november2020\r\n
+comment1.params=player
+comment1.target=CommandDrop(Player)
+comment1.text=\r\n\ Initialise\ the\ player\ on\ which\ the\ command\ is\ executed\r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ Try\ to\ drop\ an\ item,\ either\ in\ the\ room\ or\ inside\ another\ object\r\n\ or\ prin\ a\ message\ for\ any\ error\ thet\ may\ occur\r\n\ @param\ command\ The\ commnad\ startin\ with\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ command\ word\ "drop"\r\n
+comment3.params=
+comment3.target=void\ dropInside()
+comment3.text=\r\n\ Drop\ an\ item\ inside\ anoter\ item\r\n\ @param\ command\ The\ command\ in\ wich\ the\ second\ word\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ is\ the\ item\ to\ be\ droped\ and\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ third\ represents\ inside\ of\ what\r\n
+comment4.params=
+comment4.target=void\ dropInRoom()
+comment4.text=\r\n\ Drop\ an\ intem\ inside\ the\ current\ room\r\n\ @param\ command\ The\ command\ that\ has\ as\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ second\ word\ the\ item\ to\ be\ droped\r\n
+numComments=5

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CommandQuit
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ Lockdown\ application.\ \r\n\ Lockdown\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \r\n\r\n\ This\ class\ is\ responsible\ of\ executing\ a\ command\ of\ type\ quit\r\n\ in\ the\ game.\ It\ can\ make\ the\ game\ end.\r\n\ \r\n\ @author\ \ Dariana\ Dorin\r\n\ @version\ november2020\r\n
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\ \r\n\ "Quit"\ was\ entered.\ Check\ the\ rest\ of\ the\ command\ to\ see\r\n\ whether\ we\ really\ quit\ the\ game.\r\n\ @return\ true,\ if\ this\ command\ quits\ the\ game,\ false\ otherwise.\r\n
+numComments=2

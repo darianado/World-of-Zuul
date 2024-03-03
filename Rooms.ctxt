@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Rooms
+comment0.text=\r\n\ \r\n\ This\ class\ is\ part\ of\ the\ Lockdown\ application.\ \r\n\ Lockdown\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \r\n\r\n\ An\ object\ of\ class\ Rooms\ stores\ a\ list\ of\ rooms.\r\n\ It\ is\ used\ to\ get\ random\ rooms\ for\ the\ people\r\n\ of\ the\ game.\r\n\ \r\n\ \r\n\ @author\ \ Dariana\ Dorin\r\n\ @version\ november\ 2020\r\n
+comment1.params=
+comment1.target=Rooms()
+comment1.text=\r\n\ Initialise\ the\ list\ of\ rooms\r\n
+comment2.params=room
+comment2.target=void\ addRoom(Room)
+comment2.text=\r\n\ Add\ a\ room\ to\ the\ list\r\n\ @param\ room\ The\ room\ to\ be\ added\r\n
+comment3.params=person
+comment3.target=void\ removePerson(Person)
+comment3.text=\r\n\ Removes\ a\ person\ from\ all\ the\ rooms\ of\ the\ list\r\n\ @param\ person\ The\ person\ to\ be\ removed\r\n
+comment4.params=person
+comment4.target=void\ moveToRandomRoom(Person)
+comment4.text=\r\n\ Moves\ a\ person\ to\ a\ new\ random\ room\ from\ the\ list\r\n\ @param\ person\ The\ person\ to\ change\ location\r\n
+numComments=5
